@@ -7,16 +7,15 @@
 /* header */
 
 .flex{
-  display: flex;
-}
-header{
-  background-color: lightblue;
-}
-section.flex,.contenuto-rosso,.contenuto-box-primaria{
+  display: flex;  
   width: 1000px;
   margin: 0 auto;   
   padding: 20px;
 }
+header{
+  background-color: lightblue;
+}
+
 .logo-superiore,.menu,.login,.box{
     border: 2px dashed black;
 }
@@ -66,17 +65,27 @@ section.flex,.contenuto-rosso,.contenuto-box-primaria{
   height:400px;
   margin: 40px 0px;
 }
+.box.green, .box.lightskyblue{
+    width:100%;
+}
 .box.lightskyblue{
   background-color: lightskyblue;
-  width:100%;
 }
 .box.pink{
   background-color: pink;
   width:calc(100% / 2);
 }
+.sezione-grigia{
+  background-color: lightgray;
+}
+.sezione-grigia .box.lightskyblue{
+  order: 1;
+}
 
-
-
+.box.green{
+  background-color: green;
+  height: 800px;
+}
 
 /* /main */
 
