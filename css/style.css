@@ -22,11 +22,10 @@ section.flex,.contenuto-rosso{
 }
 .logo-superiore,.menu,.login{
   background-color: orange;  
-
   height: 40px;
 }
 .logo-superiore,.login{
-  width: 150px;
+  width: 200px;
 }
 .text-logo,.text-menu,.text-login{
   font-size: 20px;
@@ -38,7 +37,7 @@ section.flex,.contenuto-rosso{
    justify-content: center;
 }
 .menu{
- width: calc(100% - 300px);
+ width: calc(100% - 400px);
 }
 .login{
   justify-content: flex-end;
