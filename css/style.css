@@ -10,9 +10,9 @@
   display: flex;  
 }
 .margine{
-  width: 1000px;
+  width: 900px;
   margin: 0 auto;   
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 header{
@@ -94,9 +94,12 @@ header{
 
 /* footer */
 
-footer section{
+footer{
   background-color:#23272a;
-  border-bottom: 1px solid white;
+
+}
+footer>section:first-child{
+    border-bottom: 1px solid white;
 }
 .box.violet,.box.yellow{
   height: 500px;
@@ -115,6 +118,7 @@ footer section{
 .footer-secondario{
   background-color: aquamarine;
   justify-content: space-between;
+  margin-top: 30px;
 }
 .logo-inferiore,.bottone{
   width: 90px;
