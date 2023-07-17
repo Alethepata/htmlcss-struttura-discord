@@ -8,15 +8,18 @@
 
 .flex{
   display: flex;  
+}
+.margine{
   width: 1000px;
   margin: 0 auto;   
   padding: 20px;
 }
+
 header{
   background-color: lightblue;
 }
 
-.logo-superiore,.menu,.login,.box{
+.logo-superiore,.menu,.login,.box,.logo-inferiore,.bottone{
     border: 2px dashed black;
 }
 .logo-superiore,.menu,.login{
@@ -26,13 +29,13 @@ header{
 .logo-superiore,.login{
   width: 200px;
 }
-.text-logo,.text-menu,.text-login{
+.text-logo,.text-menu,.text-login,.text-bottone{
   font-size: 20px;
 }
-.logo-superiore,.menu,.login,.contenuto-rosso{
+.logo-superiore,.menu,.login,.contenuto-rosso,.logo-inferiore,.bottone{
   align-items: center;
 }
-.menu,.contenuto-rosso{
+.menu,.contenuto-rosso,.logo-inferiore,.bottone{
    justify-content: center;
 }
 .menu{
@@ -41,7 +44,7 @@ header{
 .login{
   justify-content: flex-end;
 }
-.text-logo{
+.logo-superiore .text-logo{
   margin-left: 20px;
 }
 .text-login{
@@ -65,7 +68,7 @@ header{
   height:400px;
   margin: 40px 0px;
 }
-.box.green, .box.lightskyblue{
+.box.green, .box.lightskyblue,.box.yellow{
     width:100%;
 }
 .box.lightskyblue{
@@ -88,6 +91,38 @@ header{
 }
 
 /* /main */
+
+/* footer */
+
+footer section{
+  background-color:#23272a;
+  border-bottom: 1px solid white;
+}
+.box.violet,.box.yellow{
+  height: 500px;
+}
+.box.violet{
+  background-color:blueviolet;  
+  width: calc(100% / 3);
+}
+.box.yellow{
+  background-color: yellow;
+  justify-content: space-evenly;
+}
+.box-trasparente{
+  border: 3px dashed white;
+}
+.footer-secondario{
+  background-color: aquamarine;
+  justify-content: space-between;
+}
+.logo-inferiore,.bottone{
+  width: 90px;
+  background-color: bisque;
+}
+
+
+/* /footer */
 
 
 
