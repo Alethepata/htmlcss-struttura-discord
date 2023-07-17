@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+
+.flex{
+  display: flex;
+}
+header{
+  background-color: lightblue;
+}
+section{
+  width: 1000px;
+  margin: 0 auto;   
+  padding: 20px;
+}
+.logo-superiore,.menu,.login{
+  background-color: orange;  
+  border: 2px dashed black;
+  height: 40px;
+}
+.logo-superiore,.login{
+  width: 150px;
+}
+.text-logo,.text-menu,.text-login{
+  font-size: 20px;
+}
+.logo-superiore,.menu,.login{
+  align-items: center;
+}
+
+.menu{
+ width: calc(100% - 300px);
+ justify-content: center;
+}
+.login{
+  justify-content: flex-end;
+}
+.text-logo{
+  margin-left: 20px;
+}
+.text-login{
+ margin-right: 20px;
+}
+
+/* /header */
+
+
+
+
+
