@@ -12,7 +12,7 @@
 header{
   background-color: lightblue;
 }
-section.flex,.contenuto-rosso{
+section.flex,.contenuto-rosso,.contenuto-box-primaria{
   width: 1000px;
   margin: 0 auto;   
   padding: 20px;
@@ -61,6 +61,18 @@ section.flex,.contenuto-rosso{
   width: 700px;
   height: 400px;
   margin: 30px;
+}
+.box{
+  height:400px;
+  margin: 40px 0px;
+}
+.box.lightskyblue{
+  background-color: lightskyblue;
+  width:100%;
+}
+.box.pink{
+  background-color: pink;
+  width:calc(100% / 2);
 }
 
 
