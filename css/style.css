@@ -12,14 +12,17 @@
 header{
   background-color: lightblue;
 }
-section{
+section.flex,.contenuto-rosso{
   width: 1000px;
   margin: 0 auto;   
   padding: 20px;
 }
+.logo-superiore,.menu,.login,.box{
+    border: 2px dashed black;
+}
 .logo-superiore,.menu,.login{
   background-color: orange;  
-  border: 2px dashed black;
+
   height: 40px;
 }
 .logo-superiore,.login{
@@ -28,13 +31,14 @@ section{
 .text-logo,.text-menu,.text-login{
   font-size: 20px;
 }
-.logo-superiore,.menu,.login{
+.logo-superiore,.menu,.login,.contenuto-rosso{
   align-items: center;
 }
-
+.menu,.contenuto-rosso{
+   justify-content: center;
+}
 .menu{
  width: calc(100% - 300px);
- justify-content: center;
 }
 .login{
   justify-content: flex-end;
@@ -47,6 +51,23 @@ section{
 }
 
 /* /header */
+
+/* main */ /* togliere altezze */
+
+.sezione-blu{
+  background-color: blue;
+}
+.box.red{
+  background-color: red;
+  width: 700px;
+  height: 400px;
+  margin: 30px;
+}
+
+
+
+
+/* /main */
 
 
 
