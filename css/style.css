@@ -9,13 +9,14 @@
 .flex{
   display: flex;  
 }
-.margine{
-  width: 900px;
+.container{
+  width: 90%;
+  max-width: 1000px;
   margin: 0 auto;   
-  padding: 20px 0px;
+  
 }
 
-header{
+.topbar{
   background-color: lightblue;
 }
 
@@ -32,10 +33,10 @@ header{
 .text-logo,.text-menu,.text-login,.text-bottone{
   font-size: 20px;
 }
-.logo-superiore,.menu,.login,.contenuto-rosso,.logo-inferiore,.bottone{
+.logo-superiore,.menu,.login,.jumbotron,.logo-inferiore,.bottone{
   align-items: center;
 }
-.menu,.contenuto-rosso,.logo-inferiore,.bottone{
+.menu,.jumbotron,.logo-inferiore,.bottone{
    justify-content: center;
 }
 .menu{
@@ -50,13 +51,9 @@ header{
 .text-login{
  margin-right: 20px;
 }
-
-/* /header */
-
-/* main */ /* togliere altezze */
-
-.sezione-blu{
+.jumbotron{
   background-color: blue;
+  height: 500px;
 }
 .box.red{
   background-color: red;
@@ -64,6 +61,12 @@ header{
   height: 400px;
   margin: 30px;
 }
+/* /header */
+
+/* main */ /* togliere altezze */
+
+
+
 .box{
   height:400px;
   margin: 40px 0px;
